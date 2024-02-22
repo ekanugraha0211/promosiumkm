@@ -44,7 +44,7 @@ a {
 
 a:hover {
   /* color: #00b6a1; */
-  color: #039b56;
+  color: #046137;
   text-decoration: none;
 }
 
@@ -1929,6 +1929,11 @@ section {
 
 .hero .btn-watch-video:hover i {
   color: #fff;
+}
+
+.hero .custom-img-size{
+  max-width: 50%;
+  height: auto;
 }
 
 @media (max-width: 640px) {
