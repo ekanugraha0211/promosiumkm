@@ -21,7 +21,7 @@
 :root {
   --color-default: #222222;
   --color-primary: #03703f;
-  --color-secondary: #FEF40B;
+  --color-secondary: #Ffff;
 }
 
 /* Smooth scroll behavior */
@@ -1108,12 +1108,36 @@ section {
 /*--------------------------------------------------------------
 # Portfolio Section
 --------------------------------------------------------------*/
+/* .portfolio-flters {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.filter-btn {
+  padding: 10px 20px;
+  background-color: var(--color-primary);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.filter-btn:hover {
+  background-color: #049956;
+}
+
+.filter-active {
+  background-color: #049956;
+}*/
+
 .portfolio .portfolio-flters {
   padding: 0 0 20px 0;
   margin: 0 auto;
   list-style: none;
   text-align: center;
-}
+} 
 
 .portfolio .portfolio-flters li {
   cursor: pointer;
