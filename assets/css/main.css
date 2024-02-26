@@ -321,7 +321,7 @@ section {
 }
 
 .header .logo h1 span {
-  color: #f96f59;
+  color: var(--color-secondary);
 }
 
 .sticked-header-offset {
@@ -498,7 +498,7 @@ section {
     inset: 0;
     padding: 50px 0 10px 0;
     margin: 0;
-    background: rgba(0, 131, 116, 0.9);
+    background: var(--color-primary);
     overflow-y: auto;
     transition: 0.3s;
     z-index: 9998;
@@ -554,8 +554,8 @@ section {
     padding: 10px 0;
     margin: 10px 20px;
     transition: all 0.5s ease-in-out;
-    background-color: #007466;
-    border: 1px solid #006459;
+    background-color: var(--color-primary);
+    border: 1px solid var(--color-secondary);
   }
 
   .navbar .dropdown>.dropdown-active,
@@ -1108,10 +1108,11 @@ section {
 /*--------------------------------------------------------------
 # Portfolio Section
 --------------------------------------------------------------*/
-/* .portfolio-flters {
+.portfolio-flters {
   display: flex;
   justify-content: center;
   gap: 10px;
+  margin-top: 10px;
 }
 
 .filter-btn {
@@ -1130,7 +1131,7 @@ section {
 
 .filter-active {
   background-color: #049956;
-}*/
+}
 
 .portfolio .portfolio-flters {
   padding: 0 0 20px 0;
@@ -1743,7 +1744,7 @@ section {
 
 .contact .info-item {
   width: 100%;
-  background-color: #009282;
+  background-color: #08ac62;
   margin-bottom: 20px;
   padding: 20px;
   border-radius: 10px;
